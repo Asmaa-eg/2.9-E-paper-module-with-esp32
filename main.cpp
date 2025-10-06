@@ -7,8 +7,8 @@
 #include <Fonts/FreeSans9pt7b.h>
 
 // =================== WiFi ===================
-const char* ssid     = "TEData_BE3DE0";
-const char* password = "h9f32768";
+const char* ssid     = "wifiname";
+const char* password = "password";
 
 // =================== API ====================
 const char* apiUrl = "https://asmaa-eg.github.io/room-schedule/schedule.json";
@@ -261,3 +261,4 @@ void drawSeats(String name, String country, String title, String department) {
 
   } while (display.nextPage());
 }
+
